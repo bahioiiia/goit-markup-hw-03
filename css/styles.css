@@ -178,12 +178,11 @@ a {
 /*=======FEATURES========*/
 
 .features {
-    
+    padding: 120px 0;
 }
 
 .features-list {
     display: flex;
-    margin: 120px 0;
     gap: 24px;
 }
 
@@ -293,6 +292,12 @@ a {
 
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .foot-text{
