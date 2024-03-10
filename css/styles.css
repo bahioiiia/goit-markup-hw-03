@@ -279,7 +279,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48;
+    row-gap: 48px;
 
 }
 
@@ -289,6 +289,9 @@ a {
 
 .port-plate{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .port-item-img {}
