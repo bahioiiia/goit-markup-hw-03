@@ -222,19 +222,23 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px
 }
 
 .team-list {
     display: flex;
-    margin: 72px 0 0 0;
     gap: 24px;
 }
 
 .team-item{
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.team-item-img {}
+
+.team-item-plate {
+    padding: 32px 0;
+}
 
 .team-item-name {
         font-weight: 500;
