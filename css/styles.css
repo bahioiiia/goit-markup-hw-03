@@ -144,15 +144,14 @@ a {
     padding: 188px 0;
 }
 
-.hero-header{
-    
+.hero-header{   
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 496;
+    max-width: 496px;
 }
 
 .hero-button{
@@ -247,6 +246,7 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .team-item-desc {
