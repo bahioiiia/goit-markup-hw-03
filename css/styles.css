@@ -141,10 +141,7 @@ a {
 
 .hero{
     background-color: #2e2f42;
-}
-
-.hero-wrap {
-    padding: 188px 316px;
+    padding: 188px 0;
 }
 
 .hero-header{
@@ -155,9 +152,11 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496;
 }
 
 .hero-button{
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -166,9 +165,11 @@ a {
     background-color: #4D5AE5;
     cursor: pointer;
     border-radius: 4px;
+    border: none;
     padding: 16px 24px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+
 }
 
 .hero-button:hover, .hero-button:focus {
